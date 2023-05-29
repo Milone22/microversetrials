@@ -32,3 +32,53 @@ body{
     font-style: italic;
 }
 
+#projects{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #4f4f75;
+}
+#projects h1{
+    font-weight: bold;
+    /* text-decoration: underline; */
+    max-width: 640px;
+    margin: 0 auto 6rem auto;
+    border-bottom: 0.2rem solid #fff;
+    margin-bottom: 2rem;
+}
+
+#projects .card{
+    border-radius: 0px;
+}
+
+#projects .card img{
+    border-radius: 0px;
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+#projects .card a{
+    text-decoration: none;
+    color:#fff;
+}
+
+#projects .show-more-btn{
+    border-radius: 0px;
+}
+
+#projects .show-more-btn:hover{
+    background-color: #be3144;
+    border-color: #be3144;
+}
+
+#contact{
+    padding: 6rem 0;
+}
+
+#contact .icon{
+    text-decoration: none;
+}
+
+#contact .icon:hover{
+    padding-top: 20px;
+}
