@@ -1,0 +1,34 @@
+body{
+    font-family: 'Poppins', sans-serif !important;
+    overflow-x: hidden;
+}
+.portfolio-nav{
+    background-color: #be3144;
+}
+.nav-item a {
+    font-size: 1.8rem !important;
+    color: #fff !important;
+}
+.nav-item:hover{
+    background-color: #4f4f75;
+}
+.navbar-nav{
+    --bs-nav-link-padding-y: 0 !important;
+     height: 78px;
+}
+.navbar{
+    --bs-nav-link-padding-y: 0 !important;
+    --bs-navbar-padding-y: 0 !important;
+}
+.nav-item{
+    margin-top: 5%;
+}
+#welcome-section{
+    height: 100vh;
+    align-content: center;
+}
+.hero-section p{
+    font-size: 22px;
+    font-style: italic;
+}
+
