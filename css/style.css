@@ -82,3 +82,6 @@ body{
 #contact .icon:hover{
     padding-top: 20px;
 }
+#footer{
+    border-top: 2px solid #be3144;
+}
