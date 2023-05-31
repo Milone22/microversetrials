@@ -62,6 +62,26 @@ body{
     color:#fff;
 }
 
+#projects .card a:hover .card-title::before {
+    content: "< ";
+    opacity: 1;
+    color: #FF7748;
+  }
+  
+  #projects .card a:hover .card-title::after {
+    content: " />";
+    opacity: 1;
+    color: #FF7748;
+  }
+  
+  #projects .card .card-title::before,
+  #projects .card .card-title::after {
+    content: '';
+    opacity: 0;
+  }
+
+  
+
 #projects .show-more-btn{
     border-radius: 0px;
 }
