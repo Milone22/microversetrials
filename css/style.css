@@ -6,10 +6,11 @@ body{
     background-color: #be3144;
 }
 .nav-item a {
-    font-size: 1.8rem !important;
+    font-size: 1.5rem !important;
     color: #fff !important;
 }
 .nav-item:hover{
+
     background-color: #4f4f75;
 }
 .navbar-nav{
@@ -21,7 +22,7 @@ body{
     --bs-navbar-padding-y: 0 !important;
 }
 .nav-item{
-    margin-top: 5%;
+    padding: 20px 10px;
 }
 #welcome-section{
     height: 100vh;
@@ -30,6 +31,11 @@ body{
 .hero-section p{
     font-size: 22px;
     font-style: italic;
+}
+
+.hero-section h1{
+    font-size: 50px;
+    font-weight: bold;
 }
 
 #projects{
@@ -92,16 +98,36 @@ body{
 }
 
 #contact{
-    padding: 6rem 0;
+    padding: 10rem 0;
+}
+
+#contact h1{
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+#contact .follow-icons{
+    /* position: relative; */
 }
 
 #contact .icon{
     text-decoration: none;
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+    font-size: 25px;
+    margin-right: 60px;
+}
+
+#contact .icon:last-child{
+    margin-right: 0;
 }
 
 #contact .icon:hover{
-    padding-top: 20px;
+    transform: translateY(10px);
+    /* text-decoration: underline; */
 }
+
 #footer{
-    border-top: 2px solid #be3144;
+    border-top: 5px solid #be3144;
+    /* padding-top: 5px; */
 }
